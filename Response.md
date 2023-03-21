@@ -23,3 +23,28 @@ When a security alert is activated, the alert must be verified because false pos
 * Recover to get back to business as soon as possible: add security rules, rebuild infected systems, recover data, and take other appropriate steps.
 
 *  Finally, see whether there is a way to strengthen the system to avoid another attack or recover faster. You can also implement new procedures for the team in case of an attack.
+
+#### Understanding the business continuity plan (BCP) and disaster recovery plan (DRP)
+A critical aspect of managing a business is creating strategies to prepare for any event that will disrupt the way the business normally works.
+
+Two strategies or processes are important:
+*  BCP: How to run the business in a reduced capacity 
+*  DRP: How to recover from an outage or loss and return to a normal situation as quickly as possibl
+
+
+##### BCP -Business Continuity Plan
+The BCP is a preventive and proactive management tool. 
+
+#### DRP-Disaster Recovery Plan
+The DRP is a strategy that helps the business recover from disasters and unplanned incidents.
+* Primary goal: Restore business functionality quickly and with minimum impact.
+* Security goal: Do not lower the level of controls or safeguards that are in place.
+* Follow-on goal: Prevent this threat, exploit, or disaster from happening again.
+
+Two parameters for DRP
+
+*  Recovery time objective (RTO): How quickly does the business need to be back up? 
+*  Recovery point objective (RPO): How much time and data can the business afford to lose?
+
+The maximum tolerable downtime (MTD) is the sum of the RTO and the WRT. In other words,
+MTD = RTO + WRT.
